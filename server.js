@@ -5,7 +5,7 @@ const uuid = require("./helpers/uuid");
 const { clog } = require("./middleware/clog");
 const favicon = require("express-favicon");
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT;
 
 const app = express();
 
