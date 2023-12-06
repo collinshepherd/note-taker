@@ -13,7 +13,7 @@ notes.get("/", (req, res) => {
   readFromFile("./db/notes.json").then((data) => res.json(JSON.parse(data)));
 });
 
-// DELETE Route for a specific tip
+// DELETE Route for a specific note
 notes.delete("/:id", (req, res) => {
   console.log(req.params);
   const noteId = req.params.id;
@@ -32,7 +32,7 @@ notes.delete("/:id", (req, res) => {
     });
 });
 
-// POST Route for a new UX/UI tip
+// POST Route for a new note
 notes.post("/", (req, res) => {
   console.log(req.body);
 
