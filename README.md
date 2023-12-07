@@ -24,9 +24,9 @@ N/A
 
 To use this application you can just visit the link below and check out the note taker. On launch you will be displayed a landing page where then you can start taking your notes. You can click inside the Note Title and Note Text to add your own note to the list. You can also click the trash can icon on your note to delete it. To see the text inside your note click on the title of the note of the left side and your note will be shown on the right.
 
-```
+
 [Link To Website](https://blooming-oasis-37422-5d6b991d459a.herokuapp.com)
-```
+
 
 ## Contributing
 
